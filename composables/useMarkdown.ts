@@ -11,8 +11,13 @@ export interface ParseOptions {
 
 export const useMarkdown = () => {
   async function parse ({ id = 'content:_markdown.md', content = '', repository = undefined, checkboxCallback = undefined }: ParseOptions = {}) {
-    const shiki = await useShiki()
     let parsed = await transformContent(id, content, {
+      highlight: {
+        theme: {
+          dark: 'dark-plus',
+          default: 'light-plus'
+        }
+      },
       markdown: {
         remarkPlugins: {
           ...repository
@@ -46,7 +51,6 @@ export const useMarkdown = () => {
         }
       }
     })
-    parsed = await shiki(parsed)
 
     return parsed
   }
