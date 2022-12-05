@@ -402,14 +402,15 @@
     pinceau latest
     style-value-types "^5.1.2"
 
-"@nuxt-themes/typography@^0.0.24":
-  version "0.0.24"
-  resolved "https://registry.yarnpkg.com/@nuxt-themes/typography/-/typography-0.0.24.tgz#a443791a0f10659c1036ef772b13c8f239f45516"
-  integrity sha512-WJV2AO7bDP32Au8o7S+0eMUNeXKsH6VYKoz2feXdOaHk9Wu+sb0AUMR/+bHQAUva6m7uavLAlTb/AVinO/BYhA==
+"@nuxt-themes/typography@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@nuxt-themes/typography/-/typography-0.1.1.tgz#e7adc5a82f56432b68956df6908d380810dcdfd1"
+  integrity sha512-y1gborASBy0G1fUpnNMjwUUinhsjRJDcTaTpi+kcWMtro3wk5tt5p8TAr4gklL+2RKJueVRz1g1abrzQTN0DLA==
   dependencies:
     "@nuxt-themes/tokens" latest
-    "@nuxtjs/color-mode" "^3.1.8"
-    nuxt-icon "^0.1.7"
+    "@nuxtjs/color-mode" "^3.2.0"
+    nuxt-config-schema "^0.3.4"
+    nuxt-icon "^0.1.8"
     pinceau latest
 
 "@nuxt/content@npm:@nuxt/content-edge@latest":
@@ -571,7 +572,7 @@
     vite-plugin-checker "^0.5.1"
     vue-bundle-renderer "^1.0.0"
 
-"@nuxtjs/color-mode@^3.1.8":
+"@nuxtjs/color-mode@^3.1.8", "@nuxtjs/color-mode@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/color-mode/-/color-mode-3.2.0.tgz#b5b6a3931a6ddd9646c3aad121d357c635792eb7"
   integrity sha512-isDR01yfadopiHQ/VEVUpyNSPrk5PCjUHS4t1qYRZwuRGefU4s9Iaxf6H9nmr1QFzoMgTm+3T0r/54jLwtpZbA==
@@ -3853,7 +3854,18 @@ nuxi@3.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-icon@^0.1.7:
+nuxt-config-schema@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/nuxt-config-schema/-/nuxt-config-schema-0.3.4.tgz#dd01f9ec0a13e1c067722954fa86804620cda9b9"
+  integrity sha512-VYmV6vVkg3QAuMNC0H/goSi7RQN/DoKoICvQy9ycuKxePc/XOYvWdDI3aIlc4XHrN1qWPdtujmE87lj6RL2r9Q==
+  dependencies:
+    "@nuxt/kit" "^3.0.0"
+    defu "^6.1.1"
+    jiti "^1.16.0"
+    pathe "^1.0.0"
+    untyped "^1.0.0"
+
+nuxt-icon@^0.1.8:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/nuxt-icon/-/nuxt-icon-0.1.8.tgz#9df26856bf5ff05685989f95bbbe52fe5ee7887a"
   integrity sha512-oPFlLOZCy80MN+hf49+mBkOIHWVF3sOqZREQZw3qD0N6wGlR15QeRQtKQC8qGeQcc+xvpLQm0GvrdJ8FxFOPYg==
