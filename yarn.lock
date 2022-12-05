@@ -403,9 +403,9 @@
     style-value-types "^5.1.2"
 
 "@nuxt-themes/typography@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@nuxt-themes/typography/-/typography-0.1.1.tgz#e7adc5a82f56432b68956df6908d380810dcdfd1"
-  integrity sha512-y1gborASBy0G1fUpnNMjwUUinhsjRJDcTaTpi+kcWMtro3wk5tt5p8TAr4gklL+2RKJueVRz1g1abrzQTN0DLA==
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@nuxt-themes/typography/-/typography-0.1.3.tgz#d00c6c0ca68d3e0e7d9cfb56ebb4fdfd866435f6"
+  integrity sha512-pUZOlHC3sUwrwNKJosZ8C7jkl1mBeoO6aQFmDo91yIgLpzPNS90QHPZns+guvDsmsxDEssuMtxTjqsvSi5LoTA==
   dependencies:
     "@nuxt-themes/tokens" latest
     "@nuxtjs/color-mode" "^3.2.0"
@@ -414,9 +414,9 @@
     pinceau latest
 
 "@nuxt/content@npm:@nuxt/content-edge@latest":
-  version "2.2.2-27837324.4ab5e05"
-  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.2.2-27837324.4ab5e05.tgz#69d9662eb58dfdff6cac6cfb6687584d5aa777e3"
-  integrity sha512-0oE9Vbe2uGysOb6G3ZxUbhcVI68QzJbhjEMRVpwf9edtzk2c7rvrtTofew5S54GTQaw9F4akC//OkWS0IMHjkg==
+  version "2.2.2-27837500.ae138a8"
+  resolved "https://registry.yarnpkg.com/@nuxt/content-edge/-/content-edge-2.2.2-27837500.ae138a8.tgz#6592f9968592a6189a17cef8ed78b3884e49d4e0"
+  integrity sha512-dyjm+ep9zSrgWCf0EJ8shxjB/mU8ip9RhB2OMJkBezLJtz0ou1aGfft09ct9I307ZRni5yKB8/qsEE6/qUecFg==
   dependencies:
     "@nuxt/kit" v3.0.0
     consola "^2.15.3"
@@ -1769,9 +1769,9 @@ dequal@^2.0.0:
   integrity sha512-0je+qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA==
 
 destr@^1.2.0, destr@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/destr/-/destr-1.2.1.tgz#03f2e7cbcd01f9190938d05718948de9d7dfb71a"
-  integrity sha512-ud8w0qMLlci6iFG7CNgeRr8OcbUWMsbfjtWft1eJ5Luqrz/M8Ebqk/KCzne8rKUlIQWWfLv0wD6QHrqOf4GshA==
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/destr/-/destr-1.2.2.tgz#7ba9befcafb645a50e76b260449c63927b51e22f"
+  integrity sha512-lrbCJwD9saUQrqUfXvl6qoM+QN3W7tLV5pAOs+OqOmopCCz/JkE05MHedJR1xfk4IAnZuJXPVuN5+7jNA2ZCiA==
 
 destroy@1.2.0:
   version "1.2.0"
@@ -4758,9 +4758,9 @@ rollup@^2.79.1:
     fsevents "~2.3.2"
 
 rollup@^3.3.0:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.5.1.tgz#5aefd0d29288ce686239fa8c2e3de87c27708ae1"
-  integrity sha512-hdQWTvPeiAbM6SUkxV70HdGUVxsgsc+CLy5fuh4KdgUBJ0SowXiix8gANgXoG3wEuLwfoJhCT2V+WwxfWq9Ikw==
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.6.0.tgz#2bff14b8680747fbb0228d102607d6a6e21859d7"
+  integrity sha512-qCgiBeSu2/AIOKWGFMiRkjPlGlcVwxAjwpGKQZOQYng+83Hip4PjrWHm7EQX1wnrvRqfTytEihRRfLHdX+hR4g==
   optionalDependencies:
     fsevents "~2.3.2"
 
