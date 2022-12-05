@@ -39,9 +39,9 @@ async function goToRepo () {
 <style lang="ts">
 css({
   html: {
-    backgroundColor: '{colors.white}',
+    backgroundColor: '{color.white}',
     '@dark': {
-      backgroundColor: '{colors.gray.900}',
+      backgroundColor: '{color.gray.900}',
     },
   },
 
@@ -60,24 +60,24 @@ css({
       padding: '{space.2}',
       alignItems: 'center',
       cursor: 'pointer',
-      color: '{colors.gray.600}',
+      color: '{color.gray.600}',
       '@dark': {
-        color: '{colors.gray.400}'
+        color: '{color.gray.400}'
       },
       '&:hover': {
-        color: '{colors.gray.900}',
+        color: '{color.gray.900}',
         '@dark': {
-          color: '{colors.gray.100}'
+          color: '{color.gray.100}'
         }
       }
     },
     input: {
-      border: '1px solid {colors.gray.200}',
+      border: '1px solid {color.gray.200}',
       padding: '{space.1} {space.2}',
       borderRadius: '3px',
       backgroundColor: 'transparent',
       '@dark': {
-        borderColor: '{colors.gray.700}'
+        borderColor: '{color.gray.700}'
       }
     }
   },

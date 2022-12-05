@@ -8,8 +8,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt-themes/typography": "^0.0.24",
-    "@nuxt/content": "^2.2.2",
+    "@nuxt-themes/typography": "^0.1.1",
+    "@nuxt/content": "npm:@nuxt/content-edge@latest",
     "@vueuse/nuxt": "^9.6.0",
     "nuxt": "3.0.0",
     "remark-github": "^11.2.4"
