@@ -19,6 +19,7 @@ async function goToRepo () {
 
 <template>
   <div class="container">
+    <NuxtLoadingIndicator :duration="1000" />
     <nav>
       <NuxtLink to="/">
         <Icon name="ph:house-simple" />
