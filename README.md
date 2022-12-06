@@ -1,20 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Readme / Nuxt Typography
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Render any GitHub readme with [Nuxt Typography](https://github.com/nuxt-themes/typography).
+
+https://nuxt-typo-readme.vercel.app
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
 # pnpm
-pnpm install --shamefully-hoist
+pnpm install
 ```
 
 ## Development Server
