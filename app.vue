@@ -13,6 +13,11 @@ async function goToRepo () {
       params: { owner, name },
       query: { branch }
     })
+  } else if (owner) {
+    router.push({
+      name: "owner",
+      params: { owner }
+    })
   }
 }
 </script>
