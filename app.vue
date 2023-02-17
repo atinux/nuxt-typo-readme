@@ -41,7 +41,7 @@ async function goToRepo () {
 css({
   html: {
     backgroundColor: '{color.white}',
-    '@dark': {
+    '&.dark': {
       backgroundColor: '{color.gray.900}',
     },
   },
